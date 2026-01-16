@@ -1,0 +1,11 @@
+[package]
+name = "delegated_signer"
+version = "0.0.1"
+authors = ["example"]
+
+[addresses]
+deployer = "0x1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib", rev = "main" }
